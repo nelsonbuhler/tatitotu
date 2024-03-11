@@ -1,6 +1,28 @@
 /* ====================================
 // css variables
 // ==================================== */
+@font-face {
+  font-family: "Avenir Next";
+  font-weight: 400;
+  src: url(../fonts/AvenirNextCyr-Regular.woff2);
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  font-weight: 500;
+  src: url(../fonts/AvenirNextCyr-Medium.woff2);
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  font-weight: 600;
+  src: url(../fonts/AvenirNextCyr-Demi.woff2);
+}
+
+@font-face {
+  font-family: "SuperClarendon";
+  src: url(../fonts/SuperClarendon.ttc);
+}
 
 :root {
   --pink: #FF74D0;
@@ -10,29 +32,21 @@
   --black: #444444;
   --scdPink: #fd55c52f;
   --scdGreen: #59e3ba2f;
+  --smalltxt: 20px;
+  --middletxt: 25px:
+  --bigtxt: 30px
 
 }
 
 /* ====================================
 // reset rules
 // ==================================== */
-
-@font-face {
-  font-family: "Avenir Next";
-  src: url(../fonts/Avenir\ Next.ttc);
-}
-
-@font-face {
-  font-family: "SuperClarendon";
-  src: url(../fonts/SuperClarendon.ttc);
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Avenir Next";
-  font-weight: 500;
+  font-weight: 400;
 }
 
 html {
@@ -59,6 +73,11 @@ video {
   vertical-align: middle;
 }
 
+
+
+/* ====================================
+// base rules
+
 .row + .row {
   margin-top: 16px;
 }
@@ -70,7 +89,4 @@ video {
   background-color: rgba(86, 61, 124, .15);
   border: 1px solid rgba(86, 61, 124, .2);
 }
-
-/* ====================================
-// base rules
 // ==================================== */
