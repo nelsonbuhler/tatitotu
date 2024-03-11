@@ -3,16 +3,36 @@
 // ==================================== */
 
 :root {
+  --pink: #FF74D0;
+  --green: #4BE2B5;
+  --bgColor: #F0F1EA;
+  --grey: #C9C5BD;
+  --black: #444444;
+  --scdPink: #fd55c52f;
+  --scdGreen: #59e3ba2f;
+
 }
 
 /* ====================================
 // reset rules
 // ==================================== */
 
+@font-face {
+  font-family: "Avenir Next";
+  src: url(../fonts/Avenir\ Next.ttc);
+}
+
+@font-face {
+  font-family: "SuperClarendon";
+  src: url(../fonts/SuperClarendon.ttc);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Avenir Next";
+  font-weight: 500;
 }
 
 html {
