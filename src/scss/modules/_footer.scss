@@ -1,4 +1,10 @@
 .footer {
-    background-color: var(--black);
-    color: var(--bgColor);
+  background-color: var(--black);
+  color: var(--bgColor);
+  text-align: center;
+}
+
+.footer p {
+  color: var(--bgColor);
+  font-size: 25px;
 }

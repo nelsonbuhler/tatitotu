@@ -1,5 +1,25 @@
+.ex-archetype {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .ex-archetype a {
-    color: var(--pink);
-    border: solid 2px var(--pink);
-    border-radius: 30px;
+  color: var(--pink);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 13px 41px;
+  border: solid 2px var(--pink);
+  border-radius: 30px;
+}
+
+.ex-archetype a:hover {
+  background-color: var(--pink);
+  color: white;
+}
+
+.ex-archetype a:active {
+  background-color: var(--pink);
+  color: white;
+  outline: 6px solid var(--scdPink);
 }

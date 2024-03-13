@@ -25,17 +25,13 @@
 }
 
 :root {
-  --pink: #FF74D0;
-  --green: #4BE2B5;
-  --bgColor: #F0F1EA;
-  --grey: #C9C5BD;
+  --pink: #ff74d0;
+  --green: #4be2b5;
+  --bgColor: #f0f1ea;
+  --grey: #c9c5bd;
   --black: #444444;
   --scdPink: #fd55c52f;
   --scdGreen: #59e3ba2f;
-  --smalltxt: 20px;
-  --middletxt: 25px:
-  --bigtxt: 30px
-
 }
 
 /* ====================================
@@ -47,6 +43,7 @@
   padding: 0;
   font-family: "Avenir Next";
   font-weight: 400;
+  color: var(--black);
 }
 
 html {
@@ -73,7 +70,13 @@ video {
   vertical-align: middle;
 }
 
-
+h2 {
+  font-family: "SuperClarendon";
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
 
 /* ====================================
 // base rules

@@ -1,0 +1,16 @@
+.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title img {
+  height: 60px;
+}
+
+.title span {
+  font-family: "SuperClarendon";
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+}

@@ -1,3 +1,16 @@
 .button {
-    background-color: var(--green);
+  background-color: var(--green);
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  padding: 13px 41px;
+}
+
+.button:hover {
+  background-color: #3fbf99;
+}
+
+.button:active {
+  background-color: #3fbf99;
+  outline: 6px solid var(--scdGreen);
 }
