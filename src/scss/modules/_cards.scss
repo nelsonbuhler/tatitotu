@@ -10,3 +10,63 @@
   font-weight: 500;
   text-align: center;
 }
+
+.cards-chips {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--green);
+  p {
+    color: white;
+  }
+}
+
+.cards-switch-wrapper {
+  display: inline-block;
+  width: 30px;
+  height: 16px;
+  padding: px;
+  border-radius: 18px;
+  background: var(--pink);
+}
+
+.cards-switch-inner {
+  width: 12px;
+  height: 12px;
+  margin: 1.5px;
+  border-radius: 8px;
+  background: white;
+}
+
+input:checked + .cards-switch-wrapper .cards-switch-inner {
+  margin-left: 15px;
+}
+
+.cards-switch input {
+  display: none;
+}
+
+.cards-opt-selecter select {
+  border: 0.5px solid var(--pink);
+  color: var(--pink);
+}
+
+.cards-segmented-radio {
+  label span {
+    border: 0.5px solid var(--pink);
+  }
+  // &:hover {
+  //   background: ;
+  // }
+  input[type="radio"] {
+    opacity: 0;
+    width: 0;
+    padding: 0;
+    height: 0;
+    margin: 0 -15px 0 0;
+  }
+
+  label input[type="radio"]:checked + span {
+    background: var(--pink);
+    color: white;
+  }
+}
