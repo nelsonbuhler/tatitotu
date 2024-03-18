@@ -80,14 +80,16 @@
               <div class="row">
                 <div class="col">
                   <form>
-                    <ul>
+                    <ul class="cards-formcontainer">
                       <li>
-                        <input
-                          type="text"
-                          id="verbe"
-                          placeholder="Ajouter un verbe"
-                          name="user_name"
-                        />
+                        <div class="cards-textfield">
+                          <input
+                            type="text"
+                            id="verbe"
+                            placeholder="Ajouter un verbe"
+                            name="user_name"
+                          />
+                        </div>
                       </li>
                       <li><div class="cards-chips"><p>Avoir</p><img src="img/icon-cross.svg" alt=""></div></li>
                       <li><div class="cards-chips"><p>Être</p><img src="img/icon-cross.svg" alt=""></div></li>
@@ -105,69 +107,93 @@
               <div class="row">
                 <div class="col">
                   <form>
-                    <ul>
-                      <li><p>Indicatif</p><img src="img/icon-arrow.svg" alt=""></li>
+                    <ul class="cards-formcontainer">
+                      <li><div class="cards-dialogs"><p>Indicatif</p><img src="img/icon-arrow.svg" alt=""></div></li>
                       <li>
+                        <div class="cards-dialogs">
+                          <div>
                         <label class="cards-switch">
                           <input type="checkbox" />
                           <div class="cards-switch-wrapper">
                             <div class="cards-switch-inner"></div>
                           </div>
                           Présent
+                        </div>
+                        <div>
                           <label class="cards-switch">
                             <input type="checkbox" />
                             <div class="cards-switch-wrapper">
                               <div class="cards-switch-inner"></div>
                             </div>
                             Passé composé
+                          </div>
+                          </div>
                       </li>
                       <li>
+                        <div class="cards-dialogs">
+                        <div>
                         <label class="cards-switch">
                           <input type="checkbox" />
                           <div class="cards-switch-wrapper">
                             <div class="cards-switch-inner"></div>
                           </div>
                           Imparfait
+                        </div>
+                        <div>
                           <label class="cards-switch">
                             <input type="checkbox" />
                             <div class="cards-switch-wrapper">
                               <div class="cards-switch-inner"></div>
                             </div>
                             Plus-que-parfait
+                          </div>
+                        </div>
                       </li>
                       <li>
+                        <div class="cards-dialogs">
+                        <div>
                         <label class="cards-switch">
                           <input type="checkbox" />
                           <div class="cards-switch-wrapper">
                             <div class="cards-switch-inner"></div>
                           </div>
                           Futur
+                        </div>
+                        <div>
                           <label class="cards-switch">
                             <input type="checkbox" />
                             <div class="cards-switch-wrapper">
                               <div class="cards-switch-inner"></div>
                             </div>
                             Futur antérieur
+                          </div>
+                        </div>
                       </li>
                       <li>
+                        <div class="cards-dialogs">
+                        <div>
                         <label class="cards-switch">
                           <input type="checkbox" />
                           <div class="cards-switch-wrapper">
                             <div class="cards-switch-inner"></div>
                           </div>
                           Passé simple
+                        </div>
+                        <div>
                           <label class="cards-switch">
                             <input type="checkbox" />
                             <div class="cards-switch-wrapper">
                               <div class="cards-switch-inner"></div>
                             </div>
                             Passé antérieur
+                          </div>
+                        </div>
                       </li>
-                      <li><p>Impératif</p><img src="img/icon-arrow.svg" alt=""></li>
-                      <li><p>Subjonctif</p><img src="img/icon-arrow.svg" alt=""></li>
-                      <li><p>Conditionnel</p><img src="img/icon-arrow.svg" alt=""></li>
-                      <li><p>Participe</p><img src="img/icon-arrow.svg" alt=""></li>
-                      <li><p>Gérondif</p><img src="img/icon-arrow.svg" alt=""></li>
+                      <li><div class="cards-dialogs"><p>Impératif</p><img src="img/icon-arrow.svg" alt=""></div></li>
+                      <li><div class="cards-dialogs"><p>Subjonctif</p><img src="img/icon-arrow.svg" alt=""></div></li>
+                      <li><div class="cards-dialogs"><p>Conditionnel</p><img src="img/icon-arrow.svg" alt=""></div></li>
+                      <li><div class="cards-dialogs"><p>Participe</p><img src="img/icon-arrow.svg" alt=""></div></li>
+                      <li><div class="cards-dialogs"><p>Gérondif</p><img src="img/icon-arrow.svg" alt=""></div></li>
                     </ul>
                   </form>
                 </div>
@@ -178,8 +204,9 @@
             <div class="cards">
               <h3 class="cards-title">question</h3>
               <div class="row"><div class="col"><form>
-                <ul>
+                <ul class="cards-formcontainer">
                   <li>
+                    <div class="cards-dialogs">
                     <p>Nombre de question</p>
                     <div class="cards-opt-selecter">
                       <select id="country" name="country">
@@ -191,9 +218,12 @@
                         <option value="50">50</option>
                       </select>
                     </div>
+                  </div>
                   </li>
+                  
                     <li>
-                      <p>type</p>
+                      <div class="cards-dialogs">
+                      <p>Type</p>
                     <div class="cards-segmented-radio">
                       <label>
                         <input type="radio" id="Norm" name="type-of-question" value="Normal" />
@@ -205,7 +235,9 @@
                       </label>
                       <br />
                     </div>
+                  </div>
                   </li>
+                
                 </ul>
               </form></div></div>
             </div>
