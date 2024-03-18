@@ -1,9 +1,12 @@
 .button {
-  background-color: var(--green);
-  text-align: center;
-  font-size: 20px;
-  color: white;
+  display: inline-flex;
   padding: 13px 41px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--green);
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
 }
 
 .button:hover {

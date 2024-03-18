@@ -2,24 +2,33 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-bottom: 15px;
 }
 
 .ex-archetype a {
   color: var(--pink);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
-  padding: 13px 41px;
-  margin: 13px 41px;
+  margin: 0px;
+  padding: 10px 40px;
+}
+
+.ex-archetype a:hover {
+  color: white;
+}
+
+.ex-archetype-button {
+  display: flex;
   border: solid 2px var(--pink);
   border-radius: 30px;
 }
 
-.ex-archetype a:hover {
+.ex-archetype-button:hover {
   background-color: var(--pink);
   color: white;
 }
 
-.ex-archetype a:active {
+.ex-archetype-button:active {
   background-color: var(--pink);
   color: white;
   outline: 6px solid var(--scdPink);

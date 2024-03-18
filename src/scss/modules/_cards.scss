@@ -5,7 +5,7 @@
 }
 
 .cards-title {
-  font-size: 25px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: 500;
   text-align: center;
@@ -46,7 +46,7 @@
 }
 
 .cards-textfield input {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .cards-switch-wrapper {
@@ -76,7 +76,7 @@ input:checked + .cards-switch-wrapper .cards-switch-inner {
 .cards-opt-selecter select {
   border: 1px solid var(--pink);
   color: var(--pink);
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 8px;
 }
 
