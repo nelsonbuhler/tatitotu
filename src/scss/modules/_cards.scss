@@ -2,6 +2,7 @@
   background-color: white;
   border: solid 2px var(--grey);
   border-radius: 5px;
+  margin-bottom: 50px;
 }
 
 .cards-title {
@@ -18,7 +19,12 @@
 .cards-dialogs {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 15px;
+}
+
+.cards-dialogs img {
+  height: 25px;
 }
 
 .cards-chips {
@@ -49,12 +55,22 @@
   font-size: 15px;
 }
 
+.cards-switch-container {
+  width: 50%;
+}
+
+.cards-switch {
+  display: flex;
+  align-items: center;
+}
+
 .cards-switch-wrapper {
   display: inline-block;
   width: 30px;
   height: 16px;
   border-radius: 18px;
   background: var(--pink);
+  margin: 0px 5px;
 }
 
 .cards-switch-inner {
@@ -84,8 +100,18 @@ input:checked + .cards-switch-wrapper .cards-switch-inner {
   label span {
     border: 1px solid var(--pink);
     color: var(--pink);
-    margin: 2px;
+    margin: 3.5px;
+    padding: 1px 5px;
   }
+
+  label:first-of-type span {
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  label:last-of-type span {
+    border-radius: 0px 8px 8px 0px;
+  }
+
   // &:hover {
   //   background: ;
   // }
