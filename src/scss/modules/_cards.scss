@@ -39,6 +39,10 @@
   padding: 10px;
 }
 
+.cards-chips:hover {
+  outline: 6px solid var(--scdGreen);
+}
+
 .cards-textfield {
   display: flex;
   flex-direction: column;
@@ -74,6 +78,10 @@
   margin: 0px 5px;
 }
 
+.cards-switch-wrapper:hover {
+  box-shadow: 0px 0px 0px 3px rgba(255, 126, 253, 0.244);
+}
+
 .cards-switch-inner {
   width: 12px;
   height: 12px;
@@ -97,6 +105,11 @@ input:checked + .cards-switch-wrapper .cards-switch-inner {
   border-radius: 8px;
 }
 
+.cards-opt-selecter select:hover {
+  background-color: var(--pink);
+  color: white;
+}
+
 .cards-segmented-radio {
   label span {
     border: 1px solid var(--pink);
@@ -112,10 +125,6 @@ input:checked + .cards-switch-wrapper .cards-switch-inner {
   label:last-of-type span {
     border-radius: 0px 8px 8px 0px;
   }
-
-  // &:hover {
-  //   background: ;
-  // }
   input[type="radio"] {
     opacity: 0;
     width: 0;
@@ -127,5 +136,9 @@ input:checked + .cards-switch-wrapper .cards-switch-inner {
   label input[type="radio"]:checked + span {
     background: var(--pink);
     color: white;
+  }
+
+  label input[type="radio"]:hover + span {
+    box-shadow: 0px 53px 0px 0px rgba(255, 189, 243, 0.206) inset;
   }
 }
