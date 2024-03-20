@@ -9,12 +9,14 @@
 .l-exercise-bg-top {
   background-image: url("../img/pattern-upside.svg");
   background-repeat: repeat;
+  background-position: center;
   height: 42px;
 }
 
 .l-exercise-bg-bottom {
   background-image: url("../img/pattern-upside-down.svg");
   background-repeat: repeat;
+  background-position: center;
   height: 42px;
   padding-bottom: 2px;
 }
