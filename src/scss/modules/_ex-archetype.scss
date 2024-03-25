@@ -11,6 +11,7 @@
   font-weight: 600;
   margin: 0px;
   padding: 10px 40px;
+  transition: color 0.2s ease-in;
 }
 
 .ex-archetype a:hover {
@@ -21,6 +22,7 @@
   display: flex;
   border: solid 2px var(--pink);
   border-radius: 30px;
+  transition: outline 0.3s ease;
 }
 
 .ex-archetype-button:hover {

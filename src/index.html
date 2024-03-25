@@ -35,7 +35,7 @@
             <div class="col">
               <p>
                 Sélectionne une liste prédéfinie ci-dessous ou
-                <a><span>créé ton propre défis</span></a>
+                <a href="#custom-exercice"><span>créé ton propre défis</span></a>
               </p>
             </div>
           </div>
@@ -73,11 +73,11 @@
         </div>
       </div>
     </div>       
-    <div class="l-exercise-bg-top"></div>
+    <div id="custom-exercice" class="l-exercise-bg-top"></div>
     <div class="l-exercise-creator">
     <div class="container">
         <div class="row">
-          <div class="col"><h2>crée ton ecercice</h2></div>
+          <div class="col"><h2>crée ton exercice</h2></div>
         </div>
         <div class="row">
           <div class="col-sm-6 col-lg-4">
@@ -114,7 +114,8 @@
                 <div class="col">
                   <form>
                     <ul class="cards-formcontainer">
-                      <li><div class="cards-dialogs"><p>Indicatif</p><img src="img/icon-arrow.svg" alt=""></div></li>
+                      <li><div class="cards-dialogs"><p>Indicatif</p><img class="arrow" src="img/icon-arrow.svg" alt=""></div></li>
+                      <div class="jscontent">
                       <li>
                         <div class="cards-dialogs">
                           <div class="cards-switch-container">
@@ -198,11 +199,437 @@
                           </div>
                         </div>
                       </li>
-                      <li><div class="cards-dialogs"><p>Impératif</p><img src="img/icon-arrow.svg" alt=""></div></li>
-                      <li><div class="cards-dialogs"><p>Subjonctif</p><img src="img/icon-arrow.svg" alt=""></div></li>
-                      <li><div class="cards-dialogs"><p>Conditionnel</p><img src="img/icon-arrow.svg" alt=""></div></li>
-                      <li><div class="cards-dialogs"><p>Participe</p><img src="img/icon-arrow.svg" alt=""></div></li>
-                      <li><div class="cards-dialogs"><p>Gérondif</p><img src="img/icon-arrow.svg" alt=""></div></li>
+                    </div>
+                      <li><div class="cards-dialogs"><p>Impératif</p><img class="arrow" src="img/icon-arrow.svg" alt=""></div></li>
+                      <div class="jscontent">
+                        <li>
+                          <div class="cards-dialogs">
+                            <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Présent
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Passé composé
+                            </div>
+                            </div>
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Imparfait
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Plus-que-parfait
+                            </div>
+                          </div >
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Futur
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Futur antérieur
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Passé simple
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Passé antérieur
+                            </div>
+                          </div>
+                        </li>
+                      </div>
+                      <li><div class="cards-dialogs"><p>Subjonctif</p><img class="arrow" src="img/icon-arrow.svg" alt=""></div></li>
+                      <div class="jscontent">
+                        <li>
+                          <div class="cards-dialogs">
+                            <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Présent
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Passé composé
+                            </div>
+                            </div>
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Imparfait
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Plus-que-parfait
+                            </div>
+                          </div >
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Futur
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Futur antérieur
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Passé simple
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Passé antérieur
+                            </div>
+                          </div>
+                        </li>
+                      </div>
+                      <li><div class="cards-dialogs"><p>Conditionnel</p><img class="arrow" src="img/icon-arrow.svg" alt=""></div></li>
+                      <div class="jscontent">
+                        <li>
+                          <div class="cards-dialogs">
+                            <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Présent
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Passé composé
+                            </div>
+                            </div>
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Imparfait
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Plus-que-parfait
+                            </div>
+                          </div >
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Futur
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Futur antérieur
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Passé simple
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Passé antérieur
+                            </div>
+                          </div>
+                        </li>
+                      </div>
+                      <li><div class="cards-dialogs"><p>Participe</p><img class="arrow" src="img/icon-arrow.svg" alt=""></div></li>
+                      <div class="jscontent">
+                        <li>
+                          <div class="cards-dialogs">
+                            <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Présent
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Passé composé
+                            </div>
+                            </div>
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Imparfait
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Plus-que-parfait
+                            </div>
+                          </div >
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Futur
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Futur antérieur
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Passé simple
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Passé antérieur
+                            </div>
+                          </div>
+                        </li>
+                      </div>
+                      <li><div class="cards-dialogs"><p>Gérondif</p><img class="arrow" src="img/icon-arrow.svg" alt=""></div></li>
+                      <div class="jscontent">
+                        <li>
+                          <div class="cards-dialogs">
+                            <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Présent
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Passé composé
+                            </div>
+                            </div>
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Imparfait
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Plus-que-parfait
+                            </div>
+                          </div >
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Futur
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Futur antérieur
+                            </div>
+                          </div>
+                        </li>
+                        <hr class="l-dialogs-separator">
+                        <li>
+                          <div class="cards-dialogs">
+                          <div class="cards-switch-container">
+                          <label class="cards-switch">
+                            <input type="checkbox" />
+                            <div class="cards-switch-wrapper">
+                              <div class="cards-switch-inner"></div>
+                            </div>
+                            Passé simple
+                          </div>
+                          <div class="cards-switch-container">
+                            <label class="cards-switch">
+                              <input type="checkbox" />
+                              <div class="cards-switch-wrapper">
+                                <div class="cards-switch-inner"></div>
+                              </div>
+                              Passé antérieur
+                            </div>
+                          </div>
+                        </li>
+                      </div>
                     </ul>
                   </form>
                 </div>

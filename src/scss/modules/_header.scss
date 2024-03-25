@@ -31,7 +31,22 @@
 }
 
 .header span {
-  border-bottom: solid 2px var(--green);
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 2px;
+    background-color: var(--green);
+    z-index: -1;
+    transition: height 0.2s ease;
+  }
+
+  &:hover::before {
+    height: 10px;
+  }
 }
 
 .header p {
