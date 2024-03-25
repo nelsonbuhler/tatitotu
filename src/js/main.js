@@ -1,8 +1,10 @@
-var arrow = document.querySelector(".arrow");
-var menu = document.querySelector(".jscontent");
+var wrappers = document.querySelectorAll(".jswrapper");
 
-var toggleMenu = function toggleMenu() {
-  menu.classList.toggle("is-active");
-};
-
-arrow.addEventListener("click", toggleMenu);
+wrappers.forEach(function (wrapper) {
+  var arrow = wrapper.querySelector(".arrow");
+  var menu = wrapper.querySelector(".jscontent");
+  var toggleMenu = function toggleMenu() {
+    menu.classList.toggle("is-active");
+  };
+  arrow.addEventListener("click", toggleMenu);
+});

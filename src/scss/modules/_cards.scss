@@ -25,14 +25,13 @@
 }
 
 .jscontent {
-  display: none;
-  transform: translate(0, -200px);
-  transition: transform 0.3s;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.3s;
 }
 
 .jscontent.is-active {
-  display: block;
-  transform: translate(0, 0px);
+  max-height: 200px;
 }
 
 .cards-dialogs img {
