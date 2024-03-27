@@ -5,6 +5,8 @@ wrappers.forEach(function (wrapper) {
   var menu = wrapper.querySelector(".jscontent");
   var toggleMenu = function toggleMenu() {
     menu.classList.toggle("is-active");
+    arrow.classList.toggle("is-active");
   };
+
   arrow.addEventListener("click", toggleMenu);
 });
