@@ -50,6 +50,12 @@
   transition: outline 0.3s ease;
 }
 
+.cards-chips.is-active {
+  opacity: 0;
+  display: none;
+  pointer-events: auto;
+}
+
 .cards-chips:hover {
   outline: 3px solid var(--scdGreen);
 }

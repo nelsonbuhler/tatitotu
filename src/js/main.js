@@ -10,3 +10,21 @@ wrappers.forEach(function (wrapper) {
 
   arrow.addEventListener("click", toggleMenu);
 });
+
+// var cross = document.querySelector(".cross");
+// var menu = document.querySelector(".cards-chips");
+
+// var toggleMenu = function toggleMenu() {
+//   menu.classList.toggle("is-active");
+// };
+
+// cross.addEventListener("click", toggleMenu);
+
+var chips = document.querySelectorAll(".cards-chips");
+chips.forEach(function (chip) {
+  var cross = chip.querySelector(".cross");
+  var toggleChip = function toggleChip() {
+    chip.classList.toggle("is-active");
+  };
+  cross.addEventListener("click", toggleChip);
+});
